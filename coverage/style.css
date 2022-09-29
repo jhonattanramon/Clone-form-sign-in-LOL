@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "ff-mark";
+    src: local(ff-mark), url(/FontFont_FF.Mark.Pro.Black.otf);
+  
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ff-mark;
+}
+
+.container {
+    background-image: url(/imgs/4K\ LOL\ Wallpaper.png);
+    background-size: cover;
+ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+.containerLogin {
+    background-color: whitesmoke;
+    position: relative;
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+
+   
+  
+}
+
+
+.sign {
+    margin: 10px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+.InputForm input {
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+.InputForm input:hover{
+    background-color: rgba(102, 102, 102, 0.1);
+}
+.InputForm input::placeholder{
+    font-size: 8px;
+    color: #666666;
+}
+
+.button-redes{
+    margin: 13px 0px 0px 00px;
+}
+
+.redes{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.face{
+    background-color: rgb(1, 162, 242);
+}
+.face:hover{
+    background-color: rgb(2, 142, 212);
+}
+.apple{
+    background-color: black;
+}
+.button-redes button img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.button-redes button{
+     padding: 5px 20px;
+}
+
+
+
+.checkBoxLogin{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 50px 0px;
+    
+}
+.checkBoxLogin input{
+    margin-right: 2px;
+    border: none;
+    text-decoration: none;
+    
+    
+}
+.checkBoxLogin input:focus{
+   box-shadow: 0 0 0 0;
+   border: 0 none;
+   outline: 0;
+}
+.checkBoxLogin span{
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: ;
+}
+
+.submitFormButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.submitFormButton button {
+    cursor: pointer;
+    padding: 16px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    display: flex;
+}
+.submitFormButton button:hover{
+    background-color: rgb(216, 6, 6);
+}
+.iconSubmit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: white;
+}
+.foorter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foorter a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #666666;
+}
+
+.foorter a:hover{
+color: #838383;
+}
